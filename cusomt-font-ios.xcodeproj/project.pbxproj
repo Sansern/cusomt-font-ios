@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050A22832632C8AB0060EBAC /* DefultFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A22822632C8AB0060EBAC /* DefultFontView.swift */; };
+		050A22892632D4360060EBAC /* LabelStyleItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A22882632D4360060EBAC /* LabelStyleItem.swift */; };
+		050A228D2632D45E0060EBAC /* TexStyleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A228C2632D45E0060EBAC /* TexStyleRow.swift */; };
 		0558EA082632C54600087B64 /* cusomt_font_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */; };
 		0558EA0A2632C54600087B64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558EA092632C54600087B64 /* ContentView.swift */; };
 		0558EA0C2632C54700087B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0558EA0B2632C54700087B64 /* Assets.xcassets */; };
@@ -16,6 +19,9 @@
 /* Begin PBXFileReference section */
 		050A227F2632C7E80060EBAC /* NotoSansThaiUI-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThaiUI-Regular.ttf"; sourceTree = "<group>"; };
 		050A22802632C7E80060EBAC /* NotoSansThaiUI-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThaiUI-Bold.ttf"; sourceTree = "<group>"; };
+		050A22822632C8AB0060EBAC /* DefultFontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefultFontView.swift; sourceTree = "<group>"; };
+		050A22882632D4360060EBAC /* LabelStyleItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelStyleItem.swift; sourceTree = "<group>"; };
+		050A228C2632D45E0060EBAC /* TexStyleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TexStyleRow.swift; sourceTree = "<group>"; };
 		0558EA042632C54600087B64 /* cusomt-font-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cusomt-font-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cusomt_font_iosApp.swift; sourceTree = "<group>"; };
 		0558EA092632C54600087B64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +50,25 @@
 			path = Fonts;
 			sourceTree = "<group>";
 		};
+		050A22862632D3C60060EBAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0558EA092632C54600087B64 /* ContentView.swift */,
+				050A22872632D3FD0060EBAC /* Default */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		050A22872632D3FD0060EBAC /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				050A22822632C8AB0060EBAC /* DefultFontView.swift */,
+				050A228C2632D45E0060EBAC /* TexStyleRow.swift */,
+				050A22882632D4360060EBAC /* LabelStyleItem.swift */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
 		0558E9FB2632C54600087B64 = {
 			isa = PBXGroup;
 			children = (
@@ -64,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */,
-				0558EA092632C54600087B64 /* ContentView.swift */,
+				050A22862632D3C60060EBAC /* Views */,
 				0558EA0B2632C54700087B64 /* Assets.xcassets */,
 				0558EA102632C54700087B64 /* Info.plist */,
 				050A227E2632C7B90060EBAC /* Fonts */,
@@ -150,8 +175,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050A22832632C8AB0060EBAC /* DefultFontView.swift in Sources */,
+				050A228D2632D45E0060EBAC /* TexStyleRow.swift in Sources */,
 				0558EA0A2632C54600087B64 /* ContentView.swift in Sources */,
 				0558EA082632C54600087B64 /* cusomt_font_iosApp.swift in Sources */,
+				050A22892632D4360060EBAC /* LabelStyleItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
