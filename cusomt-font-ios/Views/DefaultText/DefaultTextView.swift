@@ -186,7 +186,7 @@ struct FootnoteText: View {
     }
 }
 
-struct CaptionText: View {
+struct CaptionOne: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text("Caption")
@@ -197,6 +197,22 @@ struct CaptionText: View {
                 
             Text("การได้เห็นวัตถุทรงกลมจากระยะไกลมันมีพลังยกระดับและชำระล้างความคิดของเราได้เฉกเช่นเดียวกับเนื้อเพลงอันศักดิ์สิทธิ์ รูปเคารพ หรือบทกลอนจากกวีผู้ยิ่งใหญ่ มันทำให้เรารู้สึกดีเสมอ")
                 .font(.caption)
+                
+        }
+    }
+}
+
+struct CaptionTwo: View {
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Caption")
+                .font(.caption)
+                .fontWeight(.bold)
+            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+                .font(.caption2)
+                
+            Text("การได้เห็นวัตถุทรงกลมจากระยะไกลมันมีพลังยกระดับและชำระล้างความคิดของเราได้เฉกเช่นเดียวกับเนื้อเพลงอันศักดิ์สิทธิ์ รูปเคารพ หรือบทกลอนจากกวีผู้ยิ่งใหญ่ มันทำให้เรารู้สึกดีเสมอ")
+                .font(.caption2)
                 
         }
     }
@@ -214,18 +230,19 @@ struct TextStyleList: View {
                 .padding(.bottom, 10.0)
             TitleThree()
                 .padding(.bottom, 10.0)
-            HeadlineText()
-                .padding(.bottom, 10.0)
             SubheadlineText()
                 .padding(.bottom, 10.0)
             BodyText()
                 .padding(.bottom, 10.0)
             CalloutText()
                 .padding(.bottom, 10.0)
+            HeadlineText()
+                .padding(.bottom, 10.0)
             FootnoteText()
                 .padding(.bottom, 10.0)
-            CaptionText()
+            CaptionOne()
                 .padding(.bottom, 10.0)
+            
         }
         
     }

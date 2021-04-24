@@ -174,21 +174,38 @@ struct CustomFootnoteText: View {
     }
 }
 
-struct CustomCaptionText: View {
+struct CustomCaptionOne: View {
     var body: some View {
         VStack(alignment: .leading) {
-            Text("Caption")
+            Text("Caption 1")
                 .font(.caption)
                 .fontWeight(.bold)
             Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
-                .font(.custom("NotoSansThaiUI-Regular", size: 12, relativeTo: .footnote))
+                .font(.custom("NotoSansThaiUI-Regular", size: 12, relativeTo: .caption))
                 
             Text("การได้เห็นวัตถุทรงกลมจากระยะไกลมันมีพลังยกระดับและชำระล้างความคิดของเราได้เฉกเช่นเดียวกับเนื้อเพลงอันศักดิ์สิทธิ์ รูปเคารพ หรือบทกลอนจากกวีผู้ยิ่งใหญ่ มันทำให้เรารู้สึกดีเสมอ")
-                .font(.custom("NotoSansThaiUI-Regular", size: 12, relativeTo: .footnote))
+                .font(.custom("NotoSansThaiUI-Regular", size: 12, relativeTo: .caption))
                 
         }
     }
 }
+
+struct CustomCaptionTwo: View {
+    var body: some View {
+        VStack(alignment: .leading) {
+            Text("Caption 2")
+                .font(.caption)
+                .fontWeight(.bold)
+            Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit.")
+                .font(.custom("NotoSansThaiUI-Regular", size: 12, relativeTo: .caption2))
+                
+            Text("การได้เห็นวัตถุทรงกลมจากระยะไกลมันมีพลังยกระดับและชำระล้างความคิดของเราได้เฉกเช่นเดียวกับเนื้อเพลงอันศักดิ์สิทธิ์ รูปเคารพ หรือบทกลอนจากกวีผู้ยิ่งใหญ่ มันทำให้เรารู้สึกดีเสมอ")
+                .font(.custom("NotoSansThaiUI-Regular", size: 12, relativeTo: .caption2))
+                
+        }
+    }
+}
+
 
 struct CustomTextStyleList: View {
     var body: some View {
@@ -203,15 +220,15 @@ struct CustomTextStyleList: View {
                 .padding(.bottom, 10.0)
             CustomHeadlineText()
                 .padding(.bottom, 10.0)
-            CustomSubheadlineText()
-                .padding(.bottom, 10.0)
             CustomBodyText()
                 .padding(.bottom, 10.0)
             CustomCalloutText()
                 .padding(.bottom, 10.0)
+            CustomSubheadlineText()
+                .padding(.bottom, 10.0)
             CustomFootnoteText()
                 .padding(.bottom, 10.0)
-            CustomCaptionText()
+            CustomCaptionOne()
                 .padding(.bottom, 10.0)
         }
         
