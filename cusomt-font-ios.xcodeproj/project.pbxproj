@@ -7,19 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		050A22832632C8AB0060EBAC /* DefaultTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A22822632C8AB0060EBAC /* DefaultTextView.swift */; };
 		0558EA082632C54600087B64 /* cusomt_font_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */; };
 		0558EA0A2632C54600087B64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558EA092632C54600087B64 /* ContentView.swift */; };
 		0558EA0C2632C54700087B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0558EA0B2632C54700087B64 /* Assets.xcassets */; };
 		0558EA0F2632C54700087B64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0558EA0E2632C54700087B64 /* Preview Assets.xcassets */; };
+		0571050F26335A6E0035725B /* DefaultTextMultipleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0571050E26335A6E0035725B /* DefaultTextMultipleView.swift */; };
+		0571051C2633628E0035725B /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0571051B2633628E0035725B /* CustomTextView.swift */; };
+		0571051F2633629D0035725B /* CustomTextMultipleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0571051E2633629D0035725B /* CustomTextMultipleView.swift */; };
+		05710521263364C00035725B /* NotoSansThaiUI-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 050A22802632C7E80060EBAC /* NotoSansThaiUI-Bold.ttf */; };
+		05710523263364C30035725B /* NotoSansThaiUI-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 050A227F2632C7E80060EBAC /* NotoSansThaiUI-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		050A227F2632C7E80060EBAC /* NotoSansThaiUI-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThaiUI-Regular.ttf"; sourceTree = "<group>"; };
+		050A22802632C7E80060EBAC /* NotoSansThaiUI-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThaiUI-Bold.ttf"; sourceTree = "<group>"; };
+		050A22822632C8AB0060EBAC /* DefaultTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextView.swift; sourceTree = "<group>"; };
 		0558EA042632C54600087B64 /* cusomt-font-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cusomt-font-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cusomt_font_iosApp.swift; sourceTree = "<group>"; };
 		0558EA092632C54600087B64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0558EA0B2632C54700087B64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0558EA0E2632C54700087B64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0558EA102632C54700087B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0571050E26335A6E0035725B /* DefaultTextMultipleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextMultipleView.swift; sourceTree = "<group>"; };
+		0571051B2633628E0035725B /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
+		0571051E2633629D0035725B /* CustomTextMultipleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextMultipleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +45,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		050A227E2632C7B90060EBAC /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				050A22802632C7E80060EBAC /* NotoSansThaiUI-Bold.ttf */,
+				050A227F2632C7E80060EBAC /* NotoSansThaiUI-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		050A22862632D3C60060EBAC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0558EA092632C54600087B64 /* ContentView.swift */,
+				050A22872632D3FD0060EBAC /* DefaultText */,
+				0571050D26335A330035725B /* DefaultTextMultiple */,
+				05710514263361490035725B /* CustomText */,
+				05710515263361580035725B /* CustomTextMultiple */,
+				05710519263361B20035725B /* SupportView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		050A22872632D3FD0060EBAC /* DefaultText */ = {
+			isa = PBXGroup;
+			children = (
+				050A22822632C8AB0060EBAC /* DefaultTextView.swift */,
+			);
+			path = DefaultText;
+			sourceTree = "<group>";
+		};
 		0558E9FB2632C54600087B64 = {
 			isa = PBXGroup;
 			children = (
@@ -53,9 +95,10 @@
 			isa = PBXGroup;
 			children = (
 				0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */,
-				0558EA092632C54600087B64 /* ContentView.swift */,
+				050A22862632D3C60060EBAC /* Views */,
 				0558EA0B2632C54700087B64 /* Assets.xcassets */,
 				0558EA102632C54700087B64 /* Info.plist */,
+				050A227E2632C7B90060EBAC /* Fonts */,
 				0558EA0D2632C54700087B64 /* Preview Content */,
 			);
 			path = "cusomt-font-ios";
@@ -67,6 +110,37 @@
 				0558EA0E2632C54700087B64 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0571050D26335A330035725B /* DefaultTextMultiple */ = {
+			isa = PBXGroup;
+			children = (
+				0571050E26335A6E0035725B /* DefaultTextMultipleView.swift */,
+			);
+			path = DefaultTextMultiple;
+			sourceTree = "<group>";
+		};
+		05710514263361490035725B /* CustomText */ = {
+			isa = PBXGroup;
+			children = (
+				0571051B2633628E0035725B /* CustomTextView.swift */,
+			);
+			path = CustomText;
+			sourceTree = "<group>";
+		};
+		05710515263361580035725B /* CustomTextMultiple */ = {
+			isa = PBXGroup;
+			children = (
+				0571051E2633629D0035725B /* CustomTextMultipleView.swift */,
+			);
+			path = CustomTextMultiple;
+			sourceTree = "<group>";
+		};
+		05710519263361B20035725B /* SupportView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +200,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				05710521263364C00035725B /* NotoSansThaiUI-Bold.ttf in Resources */,
 				0558EA0F2632C54700087B64 /* Preview Assets.xcassets in Resources */,
+				05710523263364C30035725B /* NotoSansThaiUI-Regular.ttf in Resources */,
 				0558EA0C2632C54700087B64 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +214,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				050A22832632C8AB0060EBAC /* DefaultTextView.swift in Sources */,
+				0571051C2633628E0035725B /* CustomTextView.swift in Sources */,
 				0558EA0A2632C54600087B64 /* ContentView.swift in Sources */,
+				0571050F26335A6E0035725B /* DefaultTextMultipleView.swift in Sources */,
+				0571051F2633629D0035725B /* CustomTextMultipleView.swift in Sources */,
 				0558EA082632C54600087B64 /* cusomt_font_iosApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
