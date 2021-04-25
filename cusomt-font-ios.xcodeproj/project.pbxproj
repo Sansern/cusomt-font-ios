@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		050A22832632C8AB0060EBAC /* DefaultTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A22822632C8AB0060EBAC /* DefaultTextView.swift */; };
+		053BF0A226353B1F00A2FA0B /* TuneFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053BF0A126353B1F00A2FA0B /* TuneFontView.swift */; };
 		0558EA082632C54600087B64 /* cusomt_font_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */; };
 		0558EA0A2632C54600087B64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558EA092632C54600087B64 /* ContentView.swift */; };
 		0558EA0C2632C54700087B64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0558EA0B2632C54700087B64 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		050A227F2632C7E80060EBAC /* NotoSansThaiUI-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThaiUI-Regular.ttf"; sourceTree = "<group>"; };
 		050A22802632C7E80060EBAC /* NotoSansThaiUI-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThaiUI-Bold.ttf"; sourceTree = "<group>"; };
 		050A22822632C8AB0060EBAC /* DefaultTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextView.swift; sourceTree = "<group>"; };
+		053BF0A126353B1F00A2FA0B /* TuneFontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneFontView.swift; sourceTree = "<group>"; };
 		0558EA042632C54600087B64 /* cusomt-font-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cusomt-font-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cusomt_font_iosApp.swift; sourceTree = "<group>"; };
 		0558EA092632C54600087B64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 		050A22862632D3C60060EBAC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				053BF0A026353B0800A2FA0B /* TuneFont */,
 				0558EA092632C54600087B64 /* ContentView.swift */,
 				050A22872632D3FD0060EBAC /* DefaultText */,
 				0571050D26335A330035725B /* DefaultTextMultiple */,
@@ -73,6 +76,14 @@
 				050A22822632C8AB0060EBAC /* DefaultTextView.swift */,
 			);
 			path = DefaultText;
+			sourceTree = "<group>";
+		};
+		053BF0A026353B0800A2FA0B /* TuneFont */ = {
+			isa = PBXGroup;
+			children = (
+				053BF0A126353B1F00A2FA0B /* TuneFontView.swift */,
+			);
+			path = TuneFont;
 			sourceTree = "<group>";
 		};
 		0558E9FB2632C54600087B64 = {
@@ -217,6 +228,7 @@
 				050A22832632C8AB0060EBAC /* DefaultTextView.swift in Sources */,
 				0571051C2633628E0035725B /* CustomTextView.swift in Sources */,
 				0558EA0A2632C54600087B64 /* ContentView.swift in Sources */,
+				053BF0A226353B1F00A2FA0B /* TuneFontView.swift in Sources */,
 				0571050F26335A6E0035725B /* DefaultTextMultipleView.swift in Sources */,
 				0571051F2633629D0035725B /* CustomTextMultipleView.swift in Sources */,
 				0558EA082632C54600087B64 /* cusomt_font_iosApp.swift in Sources */,
