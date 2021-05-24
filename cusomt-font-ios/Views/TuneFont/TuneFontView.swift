@@ -35,10 +35,10 @@ struct TuneFontView: View {
                     VStack {
                         Text("Default SF Pro UI Text")
                             .font(.largeTitle)
-                        Text("การเดินทาง ขากลับคงจะเหงา")
-                            .font(.largeTitle)
-                            .lineSpacing(5)
-                            .offset(y: 3)
+                            Text("การเดินทาง ขากลับคงจะเหงา")
+                                .font(.largeTitle)
+                                .lineSpacing(5)
+                                .offset(y: 3)
                     }
                     VStack {
                         Text("NotoSansThai UI")
