@@ -6,8 +6,12 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct CustomTextView: View {
+ 
+    
+    
     var body: some View {
         NavigationView {
             List() {

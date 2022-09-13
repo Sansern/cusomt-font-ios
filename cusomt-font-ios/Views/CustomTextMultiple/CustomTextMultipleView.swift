@@ -13,12 +13,6 @@ struct CustomTextMultipleView: View {
             List() {
                CustomTextStyleList()
                 .foregroundColor(Color(.label))
-                CustomTextStyleList()
-                 .foregroundColor(Color(.secondaryLabel))
-                CustomTextStyleList()
-                 .foregroundColor(Color(.tertiaryLabel))
-                CustomTextStyleList()
-                 .foregroundColor(Color(.quaternaryLabel))
             }
             .navigationTitle(Text("Custom Multiple"))
         }

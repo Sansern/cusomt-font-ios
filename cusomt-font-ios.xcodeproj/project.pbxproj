@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		050A22832632C8AB0060EBAC /* DefaultTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 050A22822632C8AB0060EBAC /* DefaultTextView.swift */; };
+		0523AF55272C1687002401A1 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0523AF54272C1687002401A1 /* NotoSans-Regular.ttf */; };
+		0523AF57272C1697002401A1 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0523AF56272C1697002401A1 /* NotoSans-Bold.ttf */; };
 		053BF0A226353B1F00A2FA0B /* TuneFontView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 053BF0A126353B1F00A2FA0B /* TuneFontView.swift */; };
 		0558EA082632C54600087B64 /* cusomt_font_iosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */; };
 		0558EA0A2632C54600087B64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0558EA092632C54600087B64 /* ContentView.swift */; };
@@ -24,6 +26,8 @@
 		050A227F2632C7E80060EBAC /* NotoSansThaiUI-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThaiUI-Regular.ttf"; sourceTree = "<group>"; };
 		050A22802632C7E80060EBAC /* NotoSansThaiUI-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSansThaiUI-Bold.ttf"; sourceTree = "<group>"; };
 		050A22822632C8AB0060EBAC /* DefaultTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultTextView.swift; sourceTree = "<group>"; };
+		0523AF54272C1687002401A1 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		0523AF56272C1697002401A1 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		053BF0A126353B1F00A2FA0B /* TuneFontView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuneFontView.swift; sourceTree = "<group>"; };
 		0558EA042632C54600087B64 /* cusomt-font-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "cusomt-font-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0558EA072632C54600087B64 /* cusomt_font_iosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cusomt_font_iosApp.swift; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 		050A227E2632C7B90060EBAC /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				0523AF54272C1687002401A1 /* NotoSans-Regular.ttf */,
+				0523AF56272C1697002401A1 /* NotoSans-Bold.ttf */,
 				050A22802632C7E80060EBAC /* NotoSansThaiUI-Bold.ttf */,
 				050A227F2632C7E80060EBAC /* NotoSansThaiUI-Regular.ttf */,
 			);
@@ -211,8 +217,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0523AF57272C1697002401A1 /* NotoSans-Bold.ttf in Resources */,
 				05710521263364C00035725B /* NotoSansThaiUI-Bold.ttf in Resources */,
 				0558EA0F2632C54700087B64 /* Preview Assets.xcassets in Resources */,
+				0523AF55272C1687002401A1 /* NotoSans-Regular.ttf in Resources */,
 				05710523263364C30035725B /* NotoSansThaiUI-Regular.ttf in Resources */,
 				0558EA0C2632C54700087B64 /* Assets.xcassets in Resources */,
 			);
